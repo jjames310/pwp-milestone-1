@@ -5,34 +5,19 @@
     <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
-    <style>
-        .img-container {
-            height: 600px;
-            position: relative;
-        }
-        .header-container  {
-            position: absolute;
-            width: 400px;
-            left: 50%;
-            margin-left: -200px;
-            top: 50%;
-            margin-top: -50px;
-        }
-
-        .project-img-container {
-            height: 400px;
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <div class="container-fluid">
         <div class="row">
             <div class="col-12">
                 <div class="img-container w-100">
-                    <img class="w-100 h-100" src="https://image.shutterstock.com/image-vector/ui-image-placeholder-wireframes-apps-260nw-1037719204.jpg" alt="Backgorund Image" />
+                    test3
+                    <img class="w-100 h-100" src="images/image3.jpg" alt="Backgorund Image" />
                     <div class="header-container text-center">
                         <h1>Welcome to my page</h1>
-                        <h2>Name</h2>
+                        <h2>Joshua James</h2>
                     </div>
                 </div>
             </div>
@@ -43,7 +28,7 @@
             </div>
             <div class="col-4">
                 <div class="w-100 about-img-container">
-                    <img class="w-100" src="https://cdn1.vectorstock.com/i/1000x1000/26/40/profile-placeholder-image-gray-silhouette-no-vector-22122640.jpg" alt=About Image" />
+                    <img class="w-100  bg-img" src="./images/profile.png" alt=About Image" />
                 </div>
             </div>
             <div class="col-8 d-flex align-items-center">
@@ -60,25 +45,50 @@
             </div>
             <div class="col-6 mt-3">
                 <div class="w-100 project-img-container border p-3">
-                    <img class="w-100 h-100" src="https://gbaproducts.com/wp-content/uploads/2017/11/img-placeholder-dark-vertical.jpg" alt="Project Image" />
+                    <img class="w-100 h-100" src="./images/image6.jpg" alt="Project Image" />
                 </div>
             </div>
             <div class="col-6 mt-3">
                 <div class="w-100 project-img-container  border p-3">
-                    <img class="w-100 h-100" src="https://gbaproducts.com/wp-content/uploads/2017/11/img-placeholder-dark-vertical.jpg" alt="Project Image" />
+                    <img class="w-100 h-100" src="./images/image2.jpg" alt="Project Image" />
                 </div>
             </div>
             <div class="col-6 mt-3">
                 <div class="w-100 project-img-container  border p-3">
-                    <img class="w-100 h-100" src="https://gbaproducts.com/wp-content/uploads/2017/11/img-placeholder-dark-vertical.jpg" alt="Project Image" />
+                    <img class="w-100 h-100" src="./images/image5.jpg" alt="Project Image" />
                 </div>
             </div>
             <div class="col-6 mt-3">
                 <div class="w-100 project-img-container  border p-3">
-                    <img class="w-100 h-100" src="https://gbaproducts.com/wp-content/uploads/2017/11/img-placeholder-dark-vertical.jpg" alt="Project Image" />
+                    <img class="w-100 h-100" src="./images/image4.jpg" alt="Project Image" />
                 </div>
             </div>
+        </div>
+        <div>
+            <form class="contact-form" action="/action_page.php">
+            <div class="form-flex">
+                <label for="name"> Name</label>
+                <input type="text" id="name" name="name" placeholder="Your  name..">  
+                <label for="fname">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email..">
+            </div>
+            
+            <div>
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px; width: 400px;"></textarea>
+                <input type="submit" value="Send" class="send">
+            </div>
+              
+              </form>
+        </div>
 
+        <div>
+            <footer>
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </footer>
         </div>
     </div>
 </body>
