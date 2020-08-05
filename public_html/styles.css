@@ -1,0 +1,57 @@
+.img-container {
+    height: 600px;
+    position: relative;
+}
+.header-container  {
+    position: absolute;
+    width: 400px;
+    left: 50%;
+    margin-left: -200px;
+    top: 50%;
+    margin-top: -50px;
+}
+
+.project-img-container {
+    height: 400px;
+}
+
+body{
+    background: radial-gradient(rgb(168, 157, 157), transparent);
+}
+
+.form-flex{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.contact-form{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.send{
+    margin-left: 5rem;
+}
+
+.bg-img{
+    width: 100%!important;
+    border: 5px solid darkgray;
+    border-radius: 50%;
+}
+
+footer{
+    background: radial-gradient(black, transparent);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.fa{
+    font-size: 30px;
+    color: lightgray;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+
+
