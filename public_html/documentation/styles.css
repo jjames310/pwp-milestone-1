@@ -53,5 +53,34 @@ footer{
     padding: 10px;
 }
 
+@media only screen and (max-width: 600px) {
+    .row{
+        flex-direction: column;
+    }
+    
+ 
+
+    .contact-form{
+        flex-direction: column;
+    }
+    .form-flex{
+        width: 100%;
+    }
+    .img-container{
+        width: 100% !important;
+    }
+    .profile-section{
+        width: 100%;
+    }
+    .about{
+        width: 100%;
+        justify-content: center;
+    align-items: center;
+    }
+    .col-6{
+        max-width: 100%;
+    }
+  }
+
 
 
