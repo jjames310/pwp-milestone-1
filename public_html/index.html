@@ -21,23 +21,30 @@
             </div>
         </div>
     </div>
-    <div class="row mt-5 about">
-        <div class="col-12">
-            <h2 class="text-center">About Me</h2>
-        </div>
+    <div class="row mt-5 about d-flex align-items-center">
         <div class="col-4">
             <div class="w-100 about-img-container">
                 <img class="w-100  bg-img" src="profile.png" alt="About Image"/>
             </div>
         </div>
-        <div class="col-8 d-flex align-items-center">
-            <div>
-                Junior web developer, hardworking and consistent. I strive to do the very best in every project that I do. Im hoping one day to become a senior web developer.
-                I was born in Jacksonville,Florida. I'm 25 years old. I love to workout and basically stay physically active in my
-                free time I find it a natural stress reliever. I'm of mixed race, black and italian. Another thing I
-                love is the beach, unfortunately there is just lakes and rivers here in New Mexico. A core belief of mine
-                is everything happens for a reason and you should never give up hope no matter what situation you
-                are in.
+        <div class="col-8">
+            <h2 class="text-center mb-5">About Me</h2>
+            <div class="border p-3 border-dark">
+                <h3 class="text-center">Personal</h3>
+                <div class="font-23">
+                    Junior web developer, hardworking and consistent. I strive to do the very best in every project that I do. Im hoping one day to become a senior web developer.
+                    I was born in Jacksonville,Florida. I'm 25 years old. I love to workout and basically stay physically active in my
+                    free time I find it a natural stress reliever. I'm of mixed race, black and italian. Another thing I
+                    love is the beach, unfortunately there is just lakes and rivers here in New Mexico. A core belief of mine
+                    is everything happens for a reason and you should never give up hope no matter what situation you
+                    are in.
+                </div>
+            </div>
+            <div class="border p-3 border-dark mt-5">
+                <h3 class="text-center">Professional</h3>
+                <div class="font-23">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi eaque eligendi enim est eveniet laudantium magni minus officiis quas, ratione repellat, soluta voluptatum? Aut cumque inventore molestias repellat unde vel.
+                </div>
             </div>
         </div>
     </div>
@@ -49,41 +56,73 @@
         </div>
         <div class="col-6 mt-3">
             <div class="w-100 project-img-container border p-3">
-                <img class="w-100 h-100" src="image6.jpg" alt="Project Image" />
+                <h2 class="text-center">Art Murals</h2>
+                <img class="w-100" src="art_murals.png" alt="Project Image" />
+                <div class="mt-3">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium atque deleniti dolorem doloremque enim in nemo pariatur praesentium provident reiciendis ullam, voluptate. Eius ex excepturi impedit natus nihil placeat quos!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium atque deleniti dolorem doloremque enim in nemo pariatur praesentium provident reiciendis ullam, voluptate. Eius ex excepturi impedit natus nihil placeat quos!
+                </div>
             </div>
         </div>
         <div class="col-6 mt-3">
             <div class="w-100 project-img-container  border p-3">
-                <img class="w-100 h-100" src="image2.jpg" alt="Project Image" />
+                <h2 class="text-center">Personal Website Portfolio</h2>
+                <img class="w-100 h-100" src="personal_portfolio.png" alt="Project Image" />
+                <div class="mt-3">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium atque deleniti dolorem doloremque enim in nemo pariatur praesentium provident reiciendis ullam, voluptate. Eius ex excepturi impedit natus nihil placeat quos!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium atque deleniti dolorem doloremque enim in nemo pariatur praesentium provident reiciendis ullam, voluptate. Eius ex excepturi impedit natus nihil placeat quos!
+                </div>
             </div>
         </div>
         <div class="col-6 mt-3">
             <div class="w-100 project-img-container  border p-3">
+                <h2 class="text-center">Home Renovation</h2>
                 <img class="w-100 h-100" src="image5.jpg" alt="Project Image" />
+                <div class="mt-3">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium atque deleniti dolorem doloremque enim in nemo pariatur praesentium provident reiciendis ullam, voluptate. Eius ex excepturi impedit natus nihil placeat quos!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium atque deleniti dolorem doloremque enim in nemo pariatur praesentium provident reiciendis ullam, voluptate. Eius ex excepturi impedit natus nihil placeat quos!
+                </div>
             </div>
         </div>
         <div class="col-6 mt-3">
             <div class="w-100 project-img-container  border p-3">
+                <h2 class="text-center">Project 4</h2>
                 <img class="w-100 h-100" src="image4.jpg" alt="Project Image" />
+                <div class="mt-3">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium atque deleniti dolorem doloremque enim in nemo pariatur praesentium provident reiciendis ullam, voluptate. Eius ex excepturi impedit natus nihil placeat quos!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium atque deleniti dolorem doloremque enim in nemo pariatur praesentium provident reiciendis ullam, voluptate. Eius ex excepturi impedit natus nihil placeat quos!
+                </div>
             </div>
         </div>
     </div>
-    <div>
-        <form class="contact-form" action="/action_page.php">
-            <div class="form-flex">
-                <label for="name"> Name</label>
-                <input type="text" id="name" name="name" placeholder="Your  name..">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="Your email..">
-            </div>
+    <div class="row">
+        <div class="col-6">
+            <form id="contact-form" class="contact-form">
+                <div class="form-flex w-100">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Your name...">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Your email...">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <textarea class="form-control" id="subject" rows="3" placeholder="Write something.."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-6 mt-3">
+            <div class="border p-3 border-dark">
+                <h3>Sent Entries</h3>
+                <div id="sent-list">
 
-            <div>
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
-                <input type="submit" value="Send" class="send">
+                </div>
             </div>
-
-        </form>
+        </div>
     </div>
 
     <div>
@@ -94,6 +133,62 @@
             <i class="fa fa-instagram" aria-hidden="true"></i>
         </footer>
     </div>
+
 </div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+<script>
+    updateList();
+    function updateList()
+    {
+        let listContainer = $('#sent-list');
+
+        let dataArray = localStorage.getItem('data');
+        if (typeof dataArray == 'undefined' || dataArray == null) {
+            return;
+        }
+
+        dataArray = JSON.parse(dataArray);
+        let listHtml = '';
+        for(let i=0; i < dataArray.length; i++) {
+            listHtml += '<p>Entry: <ul><li>Name: '+dataArray[i]['name']+'</li><li>Email: '+dataArray[i]['email']+'</li><li>Subject: '+dataArray[i]['subject']+'</li></ul>';
+        }
+
+        listContainer.html(listHtml);
+    }
+    $('#contact-form').submit(function(e) {
+            e.preventDefault();
+            const name = $('#name').val();
+            const email = $('#email').val();
+            const subject = $('#subject').val();
+
+            if (!name || name.length == 0
+                || !email || email.length == 0
+                || !subject || subject.length == 0
+            ) {
+                alert('All contact fields are required');
+                return;
+            }
+
+            const dataItem = {
+                name: name,
+                email: email,
+                subject: subject
+            };
+
+
+            let dataArray = localStorage.getItem('data');
+            if (typeof dataArray == 'undefined' || dataArray == null) {
+                dataArray = [];
+            } else {
+                dataArray = JSON.parse(dataArray);
+            }
+
+            dataArray.push(dataItem);
+
+            localStorage.setItem('data', JSON.stringify(dataArray));
+
+            updateList();
+        });
+</script>
 </body>
 </html>

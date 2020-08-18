@@ -12,18 +12,14 @@
 }
 
 .project-img-container {
-    height: 400px;
+   /* height: 400px;*/
+    min-height: 600px;
 }
 
 body{
     background: radial-gradient(rgb(168, 157, 157), transparent);
 }
 
-.form-flex{
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-}
 .contact-form{
     display: flex;
     flex-direction: row;
@@ -83,6 +79,10 @@ footer{
   }
 .subject  {height:200px;
     width: 400px;}
+
+.font-23 {
+    font-size: 23px;
+}
 
 
 
