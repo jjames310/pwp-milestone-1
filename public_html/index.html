@@ -95,35 +95,7 @@
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-6">
-            <form id="contact-form" class="contact-form">
-                <div class="form-flex w-100">
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Your name...">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Your email...">
-                    </div>
-                    <div class="form-group">
-                        <label for="subject">Subject</label>
-                        <textarea class="form-control" id="subject" rows="3" placeholder="Write something.."></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Send</button>
-                </div>
-            </form>
-        </div>
-        <div class="col-6 mt-3">
-            <div class="border p-3 border-dark">
-                <h3>Sent Entries</h3>
-                <div id="sent-list">
 
-                </div>
-            </div>
-        </div>
-    </div>
     <form action="./apis/" id="contact" method="post" novalidate>
         <div class="form-group">
             <label for="name">Name</label>
@@ -131,7 +103,7 @@
                 <div class="input-group-prepend">
                     <span class="input-group-text"><i class="fa fa-user"></i></span>
                 </div>
-                <input class="form-control" id="name" name="name" placeholder="Your Name" type="text">
+                <input class="form-control"  name="name" placeholder="Your Name" type="text" value="Joshua">
             </div>
         </div>
         <div class="form-group">
@@ -140,7 +112,7 @@
                 <div class="input-group-prepend">
                     <span class="input-group-text"><i class="fa fa-envelope"></i></span>
                 </div>
-                <input class="form-control" id="email" name="email" placeholder="Your Email" type="email">
+                <input class="form-control"  name="email" placeholder="Your Email" type="email" value="Joshua@gmail.com">
             </div>
         </div>
         <div class="form-group">
@@ -149,7 +121,7 @@
                 <div class="input-group-prepend">
                     <span class="input-group-text"><i class="fa fa-pencil"></i></span>
                 </div>
-                <input class="form-control" id="subject" name="subject" placeholder="Subject" type="text">
+                <input class="form-control"  name="subject" placeholder="Subject" type="text" value="Subject">
             </div>
         </div>
         <div class="form-group">
@@ -160,12 +132,13 @@
                 </div>
                 <textarea class="form-control" id="message" maxlength="2000" name="message"
                           placeholder="Your Message (2000 characters max)" required
-                          rows="5"></textarea>
+                          rows="5">Sample</textarea>
             </div>
         </div>
         <div class="g-recaptcha" data-sitekey="6LeHssAZAAAAAIwP4OSCy0IJq8okjXBzC---iRqX"></div>
         <button class="btn btn-info" type="submit">Submit</button>
         <button class="btn btn-default" type="reset">Reset</button>
+        <div id="output-area"></div>
     </form>
     <div>
         <footer>

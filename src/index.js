@@ -7,7 +7,8 @@ const {check, validationResult} = require("express-validator")
 const mailgun = require("mailgun-js")
 
 //application variable to allow express to run in this file
-const app = express()
+
+var app = express()
 
 app.use(morgan('dev'))
 app.use(express.json())
@@ -30,7 +31,7 @@ const indexRouteMiddleware = (request, response, nextFunction)  => {
 
 const handleEmailPost = function(request, response, nextFunction) {
     response.append('Content-Type', 'text/html')
-
+   //@todo:test recaptcha failure
     if(request.recaptcha.error) {
         return response.send(`<div class='alert alert-danger' role='alert'><strong>Oh snap!</strong>There was an error with Recaptcha please try again</div>`)
     }

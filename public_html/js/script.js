@@ -49,9 +49,12 @@ $(document).ready(function () {
 
         },
         submitHandler: function (form) {
+            let actionUrl = $('#contact').attr('action')
+            //actionUrl = "http://localhost:4200/apis"
             $("#contact").ajaxSubmit({
+
                 type: "POST",
-                url: $('#contact').attr('action'),
+                url: actionUrl,
                 success: function (ajaxOutput) {
                     $("#output-area").css("display", "")
                     $("#output-area").html(ajaxOutput)
