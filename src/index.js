@@ -55,6 +55,9 @@ const handleEmailPost = function(request, response, nextFunction) {
 
     mg.messages().send(mailgunData, (error) => {
         if (error) {
+            console.log(error)
+            console.log(process.env.MAILGUN_API_KEY)
+            console.log(process.env.MAILGUN_DOMAIN)
             return response.send(Buffer.from(`<div class='alert alert-danger' role='alert'><strong>Oh snap!</strong> Unable to send email error with email sender</div>`))
         }
         return response.send(Buffer.from("<div class='alert alert-success' role='alert'>Email successfully sent.</div>"))
